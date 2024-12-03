@@ -1,0 +1,124 @@
+/* StudentAttendance.css */
+.attendance-page {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background: linear-gradient(135deg, #8f94fb, #4e54c8);
+  min-height: 100vh;
+  color: #fff;
+  margin-top: 60px;
+
+}
+
+.attendance-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.attendance-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #4e54c8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.attendance-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.status-radio {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.status-radio label {
+  font-size: 1rem;
+}
+
+.status-radio input {
+  margin-right: 5px;
+}
+
+.location-info {
+  padding: 15px;
+  background-color: #f0f4f8;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.location-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4e54c8;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3d43a1;
+}
+
+.submit-btn {
+  background-color: #ffd700;
+  color: #4e54c8;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.attendance-form p {
+  font-size: 0.9rem;
+}
+
+.attendance-form a {
+  color: #4e54c8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.attendance-form a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .attendance-page {
+    padding: 20px;
+  }
+
+  .attendance-form input {
+    padding: 8px;
+  }
+
+  .status-radio {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .location-info {
+    padding: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,86 @@
+/* LandPage.css */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb); /* Beautiful gradient background */
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin-top: 80px;
+
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #ffd700;
+  color: #4e54c8;
+}
+
+.btn-primary:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #ffd700;
+  color: #ffd700;
+}
+
+.btn-secondary:hover {
+  background-color: #ffd700;
+  color: #4e54c8;
+}
+
+.hero-image img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-image img {
+    width: 300px;
+  }
+}
