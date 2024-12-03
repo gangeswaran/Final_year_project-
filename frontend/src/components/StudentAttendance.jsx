@@ -8,8 +8,8 @@ const StudentAttendance = () => {
   const [regNo, setRegNo] = useState("");
   const [date, setDate] = useState("");
   const [status, setStatus] = useState("present");
-  const [latitude, setLatitude] = useState(''); // Default College Lat
-  const [longitude, setLongitude] = useState(''); // Default College Long
+  const [latitude, setLatitude] = useState(10.777877887283086); // Default College Lat
+  const [longitude, setLongitude] = useState(78.72046707285774); // Default College Long
   const [isWithinArea, setIsWithinArea] = useState(false);
 
   const targetCoordinates = [
